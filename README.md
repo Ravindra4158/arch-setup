@@ -52,7 +52,9 @@ Dependencies:
 -   app2unit
 -   wireplumber
 -   trash-cli
--   foot
+-   kitty
+-   hyprlock
+-   dolphin
 -   fish
 -   fastfetch
 -   starship
@@ -73,7 +75,7 @@ to install them.
 > that pulls in all dependencies. It can be installed through the install script, makepkg/pacman, yay,
 > paru, or your preferred AUR helper.
 
-Then copy or symlink the `hypr`, `foot`, `fish`, `fastfetch`, `uwsm` and `btop` folders to the
+Then copy or symlink the `hypr`, `kitty`, `fish`, `fastfetch`, `uwsm` and `btop` folders to the
 `$XDG_CONFIG_HOME` (usually `~/.config`) directory. e.g. `hypr -> ~/.config/hypr`.
 Copy `starship.toml` to `$XDG_CONFIG_HOME/starship.toml`.
 
@@ -132,12 +134,15 @@ There aren't really any usage instructions... these are a set of dotfiles.
 Here's a list of useful keybinds though:
 
 -   `Super` - open launcher
+-   `Super` + `M` - open Spotify (Flatpak)
 -   `Super` + `#` - switch to workspace `#`
 -   `Super` `Alt` + `#` - move window to workspace `#`
--   `Super` + `T` - open terminal (foot)
--   `Super` + `W` - open browser (zen)
--   `Super` + `C` - open IDE (vscodium)
+-   `Super` + `T` - open terminal (kitty)
+-   `Super` + `W` - open browser (chrome)
+-   `Super` + `C` - open IDE (vs code)
+-   `Super` + `L` - lock screen (hyprlock)
 -   `Super` + `S` - toggle special workspace or close current special workspace
+-   `Ctrl` `Super` + `M` - toggle the music special workspace
 -   `Ctrl` `Alt` + `Delete` - open session menu
 -   `Ctrl` `Super` + `Space` - toggle media play state
 -   `Ctrl` `Super` `Alt` + `R` - restart the shell
