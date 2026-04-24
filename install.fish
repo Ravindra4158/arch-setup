@@ -205,6 +205,9 @@ if confirm-overwrite $config/btop
     ln -s (realpath btop) $config/btop
 end
 
+# Desktop folder
+mkdir -p $HOME/Desktop
+
 # Install spicetify
 if set -q _flag_spotify
     log 'Installing spotify (spicetify)...'

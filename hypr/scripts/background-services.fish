@@ -8,6 +8,8 @@ sleep 3
 sleep 1
 gammastep >/dev/null 2>&1 &
 
+command -sq nemo-desktop; and nemo-desktop >/dev/null 2>&1 &
+
 sleep 1
 mpris-proxy >/dev/null 2>&1 &
 

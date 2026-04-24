@@ -55,6 +55,7 @@ Dependencies:
 -   kitty
 -   hyprlock
 -   dolphin
+-   nemo
 -   fish
 -   fastfetch
 -   starship
@@ -66,6 +67,8 @@ Dependencies:
 -   qtengine-git
 -   ttf-jetbrains-mono-nerd
 
+Nemo is included so the session can optionally show desktop icons and keep a Desktop folder for
+files and app shortcuts.
 Install all dependencies and follow the installation guides of the
 [shell](https://github.com/caelestia-dots/shell) and [cli](https://github.com/caelestia-dots/cli)
 to install them.

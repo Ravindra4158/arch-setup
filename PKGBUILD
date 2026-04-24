@@ -15,6 +15,7 @@ depends=('caelestia-cli' 'caelestia-shell'
          'kitty' 'hyprlock' 'dolphin' 'fish' 'eza' 'fastfetch' 'starship' 'btop' 'jq' 'adw-gtk-theme'
          'papirus-icon-theme' 'qtengine-git' 'ttf-jetbrains-mono-nerd')
 optdepends=('dolphin: file manager'
+            'nemo: desktop icons and file manager'
             'spotify: music player'
             'vscode: code editor'
             'google-chrome: web browser'
