@@ -31,6 +31,10 @@ if status is-interactive
     abbr ll 'ls -l'
     abbr la 'ls -a'
     abbr lla 'ls -la'
+    abbr c 'clear'
+    abbr .. 'cd ..'
+    abbr ... 'cd ../..'
+    abbr .... 'cd ../../..'
 
     # Custom colours
     cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
