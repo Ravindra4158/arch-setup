@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+rofi \
+    -show drun \
+    -config "${XDG_CONFIG_HOME:-$HOME/.config}/rofi/config.rasi"

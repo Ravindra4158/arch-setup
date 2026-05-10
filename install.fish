@@ -166,6 +166,7 @@ if confirm-overwrite $config/hypr
     log 'Installing hypr* configs...'
     ln -s (realpath hypr) $config/hypr
     chmod u+x $config/hypr/scripts/wsaction.fish
+    chmod u+x $config/hypr/scripts/wallpaper-settings-sync.fish
     hyprctl reload
 end
 
@@ -191,6 +192,13 @@ end
 if confirm-overwrite $config/fastfetch
     log 'Installing fastfetch config...'
     ln -s (realpath fastfetch) $config/fastfetch
+end
+
+# Rofi
+if confirm-overwrite $config/rofi
+    log 'Installing rofi config...'
+    ln -s (realpath rofi) $config/rofi
+    chmod u+x $config/rofi/scripts/launcher_t2
 end
 
 # Uwsm

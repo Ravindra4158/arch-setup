@@ -1,6 +1,6 @@
 if status is-interactive
     # Starship custom prompt
-    starship init fish | source
+    starship init kitty | source
 
     # Direnv + Zoxide
     command -v direnv &> /dev/null && direnv hook fish | source

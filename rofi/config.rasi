@@ -1,0 +1,10 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Papirus";
+    matching: "fuzzy";
+    drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";
+    display-drun: "";
+}
+
+@theme "themes/launchpad.rasi"

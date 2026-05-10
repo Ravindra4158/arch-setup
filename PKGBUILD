@@ -12,7 +12,7 @@ license=('GPL-3.0-only')
 depends=('caelestia-cli' 'caelestia-shell'
          'hyprland' 'xdg-desktop-portal-hyprland' 'xdg-desktop-portal-gtk' 'hyprpicker'
          'wl-clipboard' 'cliphist' 'inotify-tools' 'app2unit' 'wireplumber' 'trash-cli'
-         'kitty' 'hyprlock' 'dolphin' 'fish' 'eza' 'fastfetch' 'starship' 'btop' 'jq' 'adw-gtk-theme'
+         'kitty' 'hyprlock' 'hyprpaper' 'mpvpaper' 'dolphin' 'fish' 'eza' 'fastfetch' 'starship' 'btop' 'jq' 'adw-gtk-theme'
          'papirus-icon-theme' 'qtengine-git' 'ttf-jetbrains-mono-nerd')
 optdepends=('dolphin: file manager'
             'nemo: desktop icons and file manager'
@@ -23,5 +23,7 @@ optdepends=('dolphin: file manager'
             'uwsm: uwsm session'
             'gnome-keyring: keyring daemon'
             'polkit-gnome: gnome polkit client'
+            'gnome-control-center: settings app for choosing wallpapers'
+            'rofi: application launcher'
             'direnv: isolated dev envs'
             'zoxide: better cd')
