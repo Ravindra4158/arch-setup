@@ -11,6 +11,17 @@ if ! test -e $_source
 end
 
 mkdir -p $_state
+
+# Only set the default wallpaper if none exists yet (preserve custom choices)
+if test -f $_path_file -a -s $_path_file
+    set -l _existing_path (string trim -- (cat $_path_file))
+    if test -n "$_existing_path" -a -e "$_existing_path"
+        # Custom wallpaper already set; skip reset
+        echo "Wallpaper already configured: $_existing_path"
+        exit 0
+    end
+end
+
 ln -sf (realpath $_source) $_current; or exit 1
 printf '%s' (realpath $_source) > $_path_file; or exit 1
 
